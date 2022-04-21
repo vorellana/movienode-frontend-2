@@ -18,7 +18,7 @@ function Planets(){
     const [movies, setMovies] = useState([]);
     const [pageCount, setPageCount] = useState(0);
     const [itemOffset, setItemOffset] = useState(0);
-    const [activePage, setActivePage] = useState(0);
+    // const [activePage, setActivePage] = useState(0);
     const itemsPerPage = 5;
     const [openLoaderModal, setOpenLoaderModal] = useState(false);
 
@@ -121,7 +121,7 @@ function Planets(){
                             containerClassName="pagination"
                             activeClassName="active"
                             renderOnZeroPageCount={null}
-                            forcePage={activePage}
+                            // forcePage={activePage}
                         />
                     </div>
                 </div>
